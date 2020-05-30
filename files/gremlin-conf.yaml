@@ -31,6 +31,8 @@ threadPoolWorker: 1
 gremlinPool: 8
 scriptEvaluationTimeout: 30000
 graphs: {
+  airroutes: gremlin-graph-airroutes.properties,
+  neo4j: gremlin-neo4j.properties,
   graph1: gremlin-graph-main.properties,
   graph2: gremlin-graph-test.properties}
 scriptEngines: {
