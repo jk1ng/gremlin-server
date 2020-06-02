@@ -24,4 +24,4 @@ def globals = [:]
 */
 
 // define the default TraversalSource to bind queries to - this one will be named "g".
-globals << [g : graph1.traversal(), g1 : graph2.traversal()]
+globals << [g : graph1.traversal(), g1 : graph2.traversal(), neo4j : neo4j.traversal(), airroutes : airroutes.traversal()]
